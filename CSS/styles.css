@@ -1,0 +1,143 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  color: #40514E;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+color: #66BFBF;
+}
+
+.hero-text{
+  font-size: 2rem; 
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+a{
+  color: #EAF6F6;
+}
+
+.top-container {
+background-color: #c3feff;
+position: relative;
+padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+position: absolute;
+right: 300px;
+top: 50px;
+}
+
+.profile-picture{
+max-width: 25%;
+border-radius: 50%;
+margin-top: 20px;
+font-family: Helvetica;
+
+}
+
+.skill-img1{
+  max-width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.skill-img2{
+  max-width: 25%;
+  float:right;
+  margin-right: 30px;
+}
+
+p,a{
+  font-family: Helvetica;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.btn{ 
+  background-color: #3dffe2; 
+  border: none; 
+  border-radius: 6px; 
+  flex-grow: 1;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px; 
+  height: 36px; 
+  line-height: 20px; 
+  margin: 20px 6px 20px 8px;
+  min-width: 185px; 
+  padding: 0 16px 0 16px; 
+  transition: 1s; 
+  cursor: pointer; 
+  } 
+  .btn-text{
+    color: #000000;
+  }
+  .btn-text:hover{
+    color: #050505; 
+  }
+  a:link{
+    text-decoration: none;
+  }
+  .btn:hover{
+  background-color: #e4e6eb; 
+  font-size: 15px; 
+  transition: 0.8s; 
+  } 
+  
+  .footer-link{
+    margin: 20px;
+    color: #050505;
+    padding-top: 10px;
+    
+    
+  }
+  .footer-link:hover{
+    color: #db00db;
+    transition: 0.8s;
+  }
+
+  hr{
+    margin-top: 30px;
+    border-top: 10px dotted #acadad;
+    width: 80PX;
+  }
+
+ 
+  .bottom-container{
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer-brand{
+    padding-top: 20px;
+    color: #ffffff;
+  }
